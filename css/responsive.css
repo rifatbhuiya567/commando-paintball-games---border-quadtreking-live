@@ -481,7 +481,7 @@
     }
 
     #banner-slide .slick-dots {
-        margin-top: 8px;
+        display: none;
     }
 
     .mLinks .tel-links ul li a {
@@ -494,16 +494,6 @@
 
     #banner-slide .banner-one {
         height: 92px;
-    }
-
-    #banner-slide .slick-dots li {
-        height: 4px;
-        width: 4px;
-    }
-    
-    #banner-slide .slick-dots li button {
-        height: 4px;
-        width: 4px;
     }
 
     #about {
