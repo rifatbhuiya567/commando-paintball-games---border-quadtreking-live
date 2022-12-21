@@ -1,0 +1,703 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .section-intro h3 {
+        font: 400 30px/1.3 'Bangers', sans-serif;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #006600;
+    }
+
+    .section-intro-gap {
+        padding-top: 40px;
+    }
+
+    #header marquee p {
+        font: 600 16px/1.3 'Archivo', sans-serif;
+    }
+
+    #header .lg-d {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #navbar .myLogo {
+        width: 180px;
+    }
+
+    #navbar .myUL li a {
+        padding: 24px 4px;
+        font: 500 16px/1.3 'Archivo', sans-serif;
+    }
+
+    .menu-mega {
+        gap: 4px;
+    }
+
+    .megaMenu-child {
+        padding: 10px 0px;
+    }
+
+    .megaMenu-child a {
+        font-size: 14px !important;
+    }
+
+    #banner-slide .banner-one {
+        height: 200px;
+    }
+
+    #banner-slide .slick-dots li {
+        height: 2px;
+        width: 16px;
+    }
+    
+    #banner-slide .slick-dots li button {
+        height: 2px;
+        width: 16px;
+    }
+
+    .Voucher img {
+        width: 64px;
+    }
+
+    #service .section-heading h2 {
+        font: 700 38px/1.5 'Archivo', sans-serif;
+    }
+
+    #service .col-lg-3 {
+        padding: 0 4px;
+    }
+
+    #service .sm-gap {
+        margin-top: 4px;
+    }
+
+    .ser-content .img h6 {
+        font: 500 15px/1.3 'Archivo', sans-serif;
+    }
+
+    .testimonial-content p {
+        font: 500 16px/1.5 'Archivo', sans-serif;
+    }
+
+    #testimonial .testi-main .next, #testimonial .testi-main .prev {
+        height: 48px;
+        width: 48px;
+        line-height: 38px;
+    }
+
+    #testimonial .testi-main .next i, #testimonial .testi-main .prev i {
+        font-size: 16px;
+    }
+
+    footer .contact-detail .heading h4 {
+        letter-spacing: 1px;
+        font: 700 25px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail address {
+        font: 300 16px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .contact-links ul li a {
+        font: 300 16px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .social-links ul li a {
+        font-size: 34px;
+    }
+
+    footer .services ul li a {
+        font: 300 16px/1.3 'Archivo', sans-serif;
+    }
+
+    .copyright-area .copy p {
+        letter-spacing: 0;
+        font: 400 12px/1.3 'Archivo', sans-serif;
+    }
+
+    .copyright-area .footer-links ul li a {
+        font: 400 12px/1.3 'Archivo', sans-serif;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-intro-gap {
+        padding-top: 48px;
+    }
+
+    #banner-slide .banner-one {
+        height: 160px;
+    }
+
+    #banner-slide .slick-dots li {
+        height: 3px;
+        width: 12px;
+    }
+    
+    #banner-slide .slick-dots li button {
+        height: 3px;
+        width: 12px;
+    }
+
+    #about {
+        padding: 48px 0;
+    }
+
+    #about .section-intro-gap {
+        justify-content: center;
+    }
+    #about .m-dv {
+        padding-top: 16px;
+    }
+
+    .about-description p {
+        margin-bottom: 8px;
+        font: 400 16px/1.4 'Archivo', sans-serif;
+    }
+
+    .Voucher img {
+        width: 52px;
+    }
+
+    #service {
+        padding: 48px 0;
+    }
+
+    #service .m-dv {
+        padding-top: 16px;
+    }
+
+    .ser-content .img h6 {
+        font: 500 15px/1.3 'Archivo', sans-serif;
+    }
+
+    #testimonial {
+        padding: 48px 0;
+    }
+
+    #testimonial .testi-main .next, #testimonial .testi-main .prev {
+        height: 48px;
+        width: 48px;
+        line-height: 38px;
+    }
+
+    #testimonial .testi-main .next i, #testimonial .testi-main .prev i {
+        font-size: 16px;
+    }
+
+    .testimonial-content p {
+        height: 120px;
+        font: 500 16px/1.5 'Archivo', sans-serif;
+    }
+
+    #brand-logos .col-md-2 {
+        padding: 0 4px;
+    }
+
+    #brand-logos .brand-logo {
+        height: 80px;
+        padding: 0 4px;
+        line-height: 80px;
+    }
+
+    footer .services .heading h4 {
+        letter-spacing: 0;
+        font: 700 23px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .heading h4 {
+        letter-spacing: 0;
+        font: 700 23px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail address {
+        font: 300 15px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .contact-links ul li a {
+        font: 300 15px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .social-links ul li a {
+        font-size: 34px;
+    }
+
+    footer .services ul li a {
+        font: 300 15px/1.3 'Archivo', sans-serif;
+    }
+
+    .copyright-area .copy p {
+        letter-spacing: 0;
+        font: 400 12px/1.3 'Archivo', sans-serif;
+    }
+
+    .copyright-area .footer-links ul li a {
+        font: 400 12px/1.3 'Archivo', sans-serif;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section-intro-gap {
+        padding-top: 40px;
+    }
+
+    #about .background-shape img {
+        width: 140px;
+    }
+
+    #service .background-shape img {
+        width: 140px;
+    }
+
+    #testimonial .background-shape img {
+        width: 140px;
+    }
+
+    .section-intro h3 {
+        font: 400 30px/1.3 'Bangers', sans-serif;
+    }
+
+    #mobileNavbar .myMenubar {
+        font-size: 22px;
+    }
+
+    #mobileNavbar .logo img, #mobileNavbar .canvas-logo img {
+        width: 200px;
+    }
+
+    #mobileNavbar .canvas-body .mMenu ul li a {
+        font: 500 14px/1.3 'Archivo', sans-serif;
+    }
+
+    #mobileNavbar .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 360px;
+    }
+
+    .mLinks .tel-links ul li a {
+        font-size: 13px;
+    }
+
+    .mLinks .social-links ul li a {
+        font-size: 26px;
+    }
+
+    #banner-slide .banner-one {
+        height: 120px;
+    }
+
+    #banner-slide .slick-dots li {
+        height: 8px;
+        width: 8px;
+    }
+    
+    #banner-slide .slick-dots li button {
+        height: 8px;
+        width: 8px;
+    }
+
+    #about {
+        padding: 40px 0;
+    }
+
+    #about .section-intro-gap {
+        justify-content: center;
+    }
+    #about .m-dv {
+        padding-top: 12px;
+    }
+
+    .about-description p {
+        margin-bottom: 8px;
+        font: 400 15px/1.4 'Archivo', sans-serif;
+    }
+
+    .Voucher img {
+        width: 48px;
+    }
+
+    #service {
+        padding: 40px 0;
+    }
+
+    #service .section-heading h2 {
+        font: 700 38px/1.5 'Archivo', sans-serif;
+        color: #000;
+        text-transform: capitalize;
+    }
+
+    #service .m-dv {
+        padding-top: 16px;
+    }
+
+    .ser-content .img h6 {
+        font: 500 15px/1.3 'Archivo', sans-serif;
+    }
+
+    #testimonial {
+        padding: 40px 0;
+    }
+
+    #testimonial .testi-main .next, #testimonial .testi-main .prev {
+        height: 48px;
+        width: 48px;
+        line-height: 38px;
+    }
+
+    #testimonial .testi-main .next i, #testimonial .testi-main .prev i {
+        font-size: 16px;
+    }
+
+    .testimonial-content p {
+        height: 140px;
+        font: 500 15px/1.5 'Archivo', sans-serif;
+    }
+
+    .testimonial-content .heading img {
+        height: 64px;
+        width: 64px;
+    }
+
+    .testimonial-content .heading h5 a {
+        font: 700 19px/1.5 'Archivo', sans-serif;
+    }
+
+    #brand-logos {
+        padding: 20px 0;
+    }
+
+    #brand-logos .col-sm-2 {
+        padding: 0 2px;
+    }
+
+    #brand-logos .brand-logo {
+        height: 64px;
+        padding: 0 4px;
+        line-height: 64px;
+    }
+
+    footer .services .heading h4 {
+        letter-spacing: 0;
+        font: 700 20px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .heading h4 {
+        letter-spacing: 0;
+        font: 700 20px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail address {
+        font: 300 14px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .contact-links ul li a {
+        font: 300 14px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .social-links ul li a {
+        font-size: 28px;
+    }
+
+    footer .services ul li a {
+        font: 300 14px/1.3 'Archivo', sans-serif;
+    }
+
+    .copyright-area .copy p {
+        letter-spacing: 0;
+        font: 400 12px/1.3 'Archivo', sans-serif;
+    }
+
+    .copyright-area .footer-links ul li a {
+        font: 400 12px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .copyright-area {
+        text-align: center;
+        justify-content: center !important;
+    }
+
+    footer .sm-dv {
+        padding-top: 8px;
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+    #header {
+        display: none;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #mobileNavbar {
+        display: block;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .section-intro-gap {
+        padding-top: 32px;
+    }
+
+    .section-intro h3 {
+        font: 400 26px/1.3 'Bangers', sans-serif;
+    }
+
+    #about .background-shape img {
+        display: none;
+    }
+
+    #service .background-shape img {
+        display: none;
+    }
+
+    #testimonial .background-shape img {
+        display: none;
+    }
+
+    #mobileNavbar .myMenubar {
+        font-size: 20px;
+    }
+
+    #mobileNavbar .logo img, #mobileNavbar .canvas-logo img {
+        width: 180px;
+    }
+
+    #mobileNavbar .canvas-body .canvas-close {
+        font-size: 24px;
+    }
+
+    #mobileNavbar .canvas-body .mMenu ul li a {
+        padding: 4px 8px;
+        font: 500 12px/1.3 'Archivo', sans-serif;
+    }
+
+    #mobileNavbar .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 280px;
+    }
+
+    #banner-slide .slick-dots {
+        margin-top: 8px;
+    }
+
+    .mLinks .tel-links ul li a {
+        font-size: 12px;
+    }
+
+    .mLinks .social-links ul li a {
+        font-size: 22px;
+    }
+
+    #banner-slide .banner-one {
+        height: 92px;
+    }
+
+    #banner-slide .slick-dots li {
+        height: 4px;
+        width: 4px;
+    }
+    
+    #banner-slide .slick-dots li button {
+        height: 4px;
+        width: 4px;
+    }
+
+    #about {
+        padding: 24px 0;
+    }
+
+    #about .m-dv {
+        padding-top: 12px;
+    }
+
+    .about-banner img {
+        height: 220px;
+    }
+
+    .about-description p {
+        margin-bottom: 6px;
+        font: 400 13px/1.4 'Archivo', sans-serif;
+    }
+
+    .Voucher img {
+        width: 40px;
+    }
+
+    #service {
+        padding: 24px 0;
+    }
+
+    #service .section-heading h2 {
+        font: 700 32px/1.5 'Archivo', sans-serif;
+        color: #000;
+        text-transform: capitalize;
+    }
+
+    #service .sm-gap {
+        margin-top: 0;
+    }
+
+    .ser-content .img {
+        height: 220px;
+    }
+
+    .ser-content .img h6 {
+        font: 500 14px/1.3 'Archivo', sans-serif;
+    }
+
+    #testimonial {
+        padding: 24px 0;
+    }
+
+    #testimonial .testi-main .next, #testimonial .testi-main .prev {
+        display: none !important;
+    }
+
+    .testimonial-content p {
+        height: 148px;
+        font: 500 13px/1.5 'Archivo', sans-serif;
+    }
+
+    .testimonial-content .heading img {
+        height: 52px;
+        width: 52px;
+    }
+
+    .testimonial-content .heading h5 a {
+        font: 700 17px/1.5 'Archivo', sans-serif;
+    }
+
+    .testimonial-content .rating ul li i {
+        font-size: 14px;
+    }
+
+    #brand-logos {
+        padding: 16px 0;
+    }
+
+    #brand-logos .col-2 {
+        padding: 0 2px;
+    }
+
+    #brand-logos .brand-logo {
+        height: 52px;
+        padding: 0 2px;
+        line-height: 52px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 40px 0 16px;
+    }
+
+    footer .services .heading {
+        margin-bottom: 6px;
+    }
+
+    footer .ul-flex {
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
+    footer .services .heading h4 {
+        letter-spacing: 0;
+        font: 700 18px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .heading {
+        margin-bottom: 6px;
+    }
+
+    footer .contact-detail .heading h4 {
+        letter-spacing: 0;
+        font: 700 18px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail address {
+        font: 300 12px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .contact-links ul li a {
+        font: 300 12px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .contact-detail .social-links ul li a {
+        font-size: 24px;
+    }
+
+    footer .services ul li a {
+        font: 300 12px/1.3 'Archivo', sans-serif;
+    }
+
+    .copyright-area .copy p {
+        letter-spacing: 0;
+        font: 400 12px/1.3 'Archivo', sans-serif;
+    }
+
+    .copyright-area .footer-links ul li a {
+        font: 400 12px/1.3 'Archivo', sans-serif;
+    }
+
+    footer .copyright-area {
+        text-align: center;
+        justify-content: center !important;
+    }
+
+    footer .services ul li {
+        padding: 0px 0;
+    }
+
+    footer .contact-detail .contact-links ul li {
+        padding: 1px 0;
+    }
+
+    footer .contact-detail .contact-links, footer .contact-detail .social-links {
+        margin-top: 0px;
+    }
+
+    .social-links {
+        margin-top: 4px;
+    }
+
+}
+
+@media (max-width: 380.98px) {
+    #mobileNavbar .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 240px;
+    }
+
+    #banner-slide .banner-one {
+        height: 72px;
+    }
+
+    #mobileNavbar .logo img, #mobileNavbar .canvas-logo img {
+        width: 140px;
+    }
+
+    .about-banner img {
+        height: 168px;
+    }
+
+    #service .section-heading h2 {
+        font: 700 28px/1.5 'Archivo', sans-serif;
+    }
+
+    .section-intro h3 {
+        font: 400 23px/1.3 'Bangers', sans-serif;
+        padding-bottom: 10px;
+    }
+
+    .section-intro h3::after {
+        height: 12px;
+        width: 12px;
+        bottom: -6px;
+    }
+
+    .ser-content .img {
+        height: 200px;
+    }
+}
