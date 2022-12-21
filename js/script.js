@@ -6,19 +6,41 @@ $(window).scroll(function(){
     else{
       $(".Voucher img").fadeOut(500);
     }
-    // nav-anim
+
     if( scrolling > 40){
       $("#navbar").addClass("nav-anim");
     }
     else{
       $("#navbar").removeClass("nav-anim");
     }
+
+    if (scrolling > 180) {
+      $(".megaMenu-prnt").addClass("scroll-menu-show");
+    } 
+    else {
+      $(".megaMenu-prnt").removeClass("scroll-menu-show");
+    }
 });
 
-$(".service-menu .service").click(function(){
-    $(".drop-menu").toggleClass("menu-visual");
-    $(".service i").toggleClass("arrow-move");
+// Scroll function end
+
+$('.ser-hidden-menu').click(function(){
+  $('.hidden-menu').toggle(500);
+  $('.ser-hidden-menu i').toggleClass('.arrow-rotate');
 });
+// Mobile tab menu 
+
+$('#banner-slide').slick({
+  dots: true,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  arrows: false,
+});
+
+// Hero are slide end
 
 $('.testimonial-slide').slick({
     dots: false,
@@ -29,30 +51,29 @@ $('.testimonial-slide').slick({
     nextArrow: '.next',
     prevArrow: '.prev',
     autoplay: true,
-    speed: 500,
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 3,
-    //       slidesToScroll: 3,
-    //       infinite: true,
-    //       dots: true
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 600,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 2
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 480,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1
-    //     }
-    //   }
-    // ]
+    responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
 });
+
+// Testimonial slide end
