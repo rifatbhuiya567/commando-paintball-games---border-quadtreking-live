@@ -481,7 +481,7 @@
     }
 
     #banner-slide .slick-dots {
-        display: none;
+        display: none !important;
     }
 
     .mLinks .tel-links ul li a {
