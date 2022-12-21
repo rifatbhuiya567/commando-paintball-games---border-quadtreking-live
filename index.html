@@ -42,14 +42,14 @@
     <header id="header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-8">
+                <div class="col-lg-12 col-xl-8">
                     <marquee behavior="scroll" scrollamount="4">
                         <p>
                             Always dreamed of being a squaddie? ... Or maybe a high octane thrill ride is more your scene if you're a quaddie .... At Border Quad Trekking you can experience quad biking, paintballing, laser clay pigeon shooting, archery and the mobile climbing wall .... Shoot your mates .... Off Road like never before .... Eat like a Pig  .... Drink like a lord .... Sleep like a Baby ....'nuff said ....... sorted ......... 07970 884694  ....   
                         </p>
                     </marquee>
                 </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-between">
+                <div class="col-lg-12 col-xl-4 d-flex align-items-center justify-content-between lg-d">
                     <div class="tel-links">
                         <ul>
                             <li>
@@ -111,68 +111,29 @@
                   <li class="nav-item">
                     <a class="nav-link active" href="/index.html">Home</a>
                   </li>
-                  <li class="nav-item service-menu">
-                    <a class="nav-link service">
+                  <li class="nav-item megaMenu-prnt">
+                    <a class="nav-link menu-mega" >
                         <span>services</span>
-                        <span><i class="fa-solid fa-angle-down"></i></span>
+                        <span><i class="fa-solid fa-chevron-down arrow"></i></span>
                     </a>
-                    <div class="drop-menu">
-                        <ul> 
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>archery</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>paintball</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>laser clays</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>quadtreking</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>rage buggies</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>team building</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>climbing tower</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>hellicopter ride</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>mobile activities</span>
-                                </a>
-                            </li>
-                        </ul>
+                    <div class="megaMenu-child">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 text-center">
+                                    <div class="menu">
+                                        <a href="#">archery</a>
+                                        <a href="#">paintball</a>
+                                        <a href="#">laser clays</a>
+                                        <a href="#">quadtreking</a>
+                                        <a href="#">rage buggies</a>
+                                        <a href="#">team buliding</a>
+                                        <a href="#">climbing tower</a>
+                                        <a href="#">hellicopter ride</a>
+                                        <a href="#">mobile activities</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                   </li>
                   <li class="nav-item">
@@ -197,6 +158,140 @@
     </header>
     <!-- Navbar area end -->
 
+    <!-- Mobile navbar area start -->
+    <header id="mobileNavbar">
+        <div class="container">
+            <nav class="mobileNav-flex">
+                <div class="logo">
+                    <a href="/index.html">
+                        <img src="images/logo.png" class="img-fluid" alt="logo"/>
+                    </a>
+                </div>
+                <div class="menu-bar">
+                    <button class="myMenubar" type="button" data-bs-toggle="offcanvas" data-bs-target="#myMobilemenu" aria-controls="myMobilemenu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="offcanvas offcanvas-start canvas-body" data-bs-scroll="true" tabindex="-1" id="myMobilemenu" aria-labelledby="myMobilemenuLabel">
+                        <div class="offcanvas-header can-head">
+                            <div class="canvas-logo">
+                                <a href="/index.html">
+                                    <img src="images/logo.png" class="img-fluid" alt="logo"/>
+                                </a>
+                            </div>
+                            <button type="button" class="canvas-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="mMenu">
+                                <ul>
+                                    <li>
+                                        <a href="/index.html" class="active">home</a>
+                                    </li>
+                                    <li class="ser-hidden-menu">
+                                        <a>
+                                            <span>services</span>
+                                            <span><i class="fa-solid fa-chevron-down"></i></span>
+                                        </a>
+                                        <div class="hidden-menu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">archery</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">paintball</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">laser clays</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">quadtreking</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">rage buggies</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">team buliding</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">climbing tower</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">hellicopter ride</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">mobile activities</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">offers & prices</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">stag & hen parties</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">accommodation</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mLinks">
+                                <div class="tel-links">
+                                    <ul>
+                                        <li>
+                                            <a title="phone" href="tel:07970884694">
+                                                <span><i class="bi bi-telephone-outbound"></i></span>
+                                                <span>07970-884694</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a title="phone" href="tel:01743884694">
+                                                <span><i class="bi bi-telephone-outbound"></i></span>
+                                                <span>01743-884694</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="social-links">
+                                    <ul>
+                                        <li>
+                                            <a title="email" href="mailto:info@commandopaintball.com">
+                                                <i class="fa-solid fa-square-envelope"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a title="twitter" href="https://twitter.com/BorderQuad" target="_blank">
+                                                <i class="fa-brands fa-square-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a title="facebook" href="https://www.facebook.com/borderquad/" target="_blank">
+                                                <i class="fa-brands fa-square-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a title="youtube" href="https://www.youtube.com/user/commandopainball" target="_blank">
+                                                <i class="fa-brands fa-square-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Mobile navbar area end -->
+
     <!-- Voucher area start -->
     <div class="Voucher">
         <a href="images/gift-voucher.pdf" target="_blank">
@@ -206,42 +301,11 @@
     <!-- Voucher area end -->
 
     <!-- Hero-area start -->
-    <main>
-        <div class="background-shape">
-            <img src="images/background-shape.png" class="img-fluid" alt="background-shape"/>
-        </div>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <div class="heroarea-content">
-                        <h1>
-                            welcome to <span class="green">commando paintball games</span> and <span class="red">border quadtreking</span>
-                        </h1>
-                        <div class="heroarea-action">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <span>offers & prices</span>
-                                        <span><i class="fa-solid fa-award"></i></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>contact us</span>
-                                        <span><i class="fa-solid fa-paper-plane"></i></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="heroarea-img">
-                        <img src="images/heroarea-img.png" class="w-100 img-fluid" alt="heroarea-img"/>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <main id="banner-slide">
+        <div class="banner-one"></div>
+        <div class="banner-one"></div>
+        <div class="banner-one"></div>
+        <div class="banner-one"></div>
     </main>
     <!-- Hero-area end -->
 
@@ -252,20 +316,20 @@
         </div>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-5 text-center">
                     <div class="section-intro">
                         <h3>about us</h3>
                     </div>
                 </div>
             </div>
             <div class="row section-intro-gap align-items-center">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-8">
                     <div class="about-banner">
                         <img src="images/about-banner.jpg" class="w-100 img-fluid" alt="about-banner"/>
                         <div class="img-overlay"></div>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-12 m-dv">
                     <div class="about-description">
                         <p>
                             Commando Paintball and Border Quad Trekking is situated in the picturesque surroundings of the <b>Shropshire, Mid Wales Borders</b> (near <b>SHREWSBURY</b>), . We are a family run outdoor pursuits centre based at the beautiful Bulthy Hill Farm.
@@ -289,70 +353,120 @@
     </section>
     <!-- About area end -->
 
-    <!-- On-page service area start -->
-    <section id="on-page">
+    <!-- Service page start -->
+    <section id="service">
+        <div class="background-shape">
+            <img src="images/background-shape.png" class="img-fluid" alt="background-shape"/>
+        </div>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <div class="on-page-inner">
-                        <div class="logo">
-                            <img src="images/logo.png" class="img-fluid" alt="on-page-logo"/>
-                            <h2>We can cater for</h2>
-                        </div>
-                        <h3>rage buggies</h3>
-                        <p>
-                            <q>
-                                Rage buggies as featured on BBC Two's Top Gear and voted the best off road vehicle are the best vehicles on the market to get the adrenalin pumping.
-                            </q>
-                        </p>
-                        <h3>quad biking</h3>
-                        <p>
-                            <q>
-                                With the help of our experienced and patient instructors quad Biking is a challenging and exciting day for all Taking in the surrounding countryside, through undiscovered paths and hills . 
-                            </q>
-                        </p>
-                        <h3>paintballing</h3>
-                        <p>
-                           <q>
-                            Paintballing is a sport that combines teamwork, strategy and skill into an exciting and action packed day During your day you will be set an exciting variety of objectives and missions, all designed to test your abilities to the full in a fun atmosphere.
-                           </q> 
-                        </p>
-                        <h3>corporate entertainment</h3>
-                        <p>
-                            <q>
-                                Commando Paintball will make your launch, incentive, prize or general team building day fun, exciting and challenging in a superb relaxing enviroment. Transport and food available for any numbers.We can cater the day for all your needs.
-                            </q>
-                        </p>
-                        <h3>family fun day</h3>
-                        <p>
-                            <q>
-                                Bulthy Farm is a fantastic place for adults and children alike with the combination of children's quad bikes and the lambing season. It makes an interesting and exciting day. Bring your picnic or bike up to the top of Bulthy Hill. Let the family explore the site before they come by visiting the Gamezone.
-                            </q>
-                        </p>
-                        <h3>stag hen parties</h3>
-                        <p>
-                            <q>
-                                we can organise your party from start to finish, with affordable clean accomodation, situated close to Shrewsbury. Not only can your party have a challenging outdoor pursuits weekend you can also have boozy nights at the local clubs.
-                            </q>
-                        </p>
-                        <h3>laser clays</h3>
-                        <p>
-                            <q>
-                                Lasersport can be enjoyed by people of all ages. It can be played just for fun, or as a serious competition with people participating as individuals or as part of a team. As with any sport, there are different levels and classes of Lasersport enabling it to be played by everyone. We can offer Laser Clays at your own venue if required, and our Party Tent and Barbeque hire could make your day even more special. 
-                            </q>
-                        </p>
-                        <h3>archery</h3>
-                        <p>
-                            <q>
-                                Are you more robin hood or robin Williams? archery is a skilful sport requiring balance, poise, accuracy, vision, timing, action - they all combine in a test of nerve.
-                            </q>
-                        </p>
+                <div class="col-lg-6 col-xl-4 text-center">
+                    <div class="section-heading">
+                        <h2><em>we can cater for</em></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-intro-gap">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="ser-content">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/home-service/1.jpg" class="w-100 img-fluid" alt="ser-img"/>
+                                <div class="text">
+                                    <h6>rage buggies</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="ser-content">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/home-service/2.jpg" class="w-100 img-fluid" alt="ser-img"/>
+                                <div class="text">
+                                    <h6>quad biking</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 m-dv">
+                    <div class="ser-content">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/home-service/3.jpg" class="w-100 img-fluid" alt="ser-img"/>
+                                <div class="text">
+                                    <h6>paintballing</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 m-dv">
+                    <div class="ser-content">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/home-service/4.jpg" class="w-100 img-fluid" alt="ser-img"/>
+                                <div class="text">
+                                    <h6>corporate entertainment</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 sm-gap">
+                    <div class="ser-content">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/home-service/5.jpg" class="w-100 img-fluid" alt="ser-img"/>
+                                <div class="text">
+                                    <h6>family fun day</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 sm-gap">
+                    <div class="ser-content">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/home-service/6.jpg" class="w-100 img-fluid" alt="ser-img"/>
+                                <div class="text">
+                                    <h6>stag hen parties</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 sm-gap">
+                    <div class="ser-content">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/home-service/7.jpg" class="w-100 img-fluid" alt="ser-img"/>
+                                <div class="text">
+                                    <h6>laser clays</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 sm-gap">
+                    <div class="ser-content">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/home-service/8.jpg" class="w-100 img-fluid" alt="ser-img"/>
+                                <div class="text">
+                                    <h6>archery</h6>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- On-page service area end -->
+    <!-- Service page end -->
 
     <!-- Testimonial area start -->
     <section id="testimonial">
@@ -361,7 +475,7 @@
         </div>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-4 col-5 text-center">
                     <div class="section-intro">
                         <h3>testimonial</h3>
                     </div>
@@ -374,7 +488,7 @@
                 <div class="prev">
                     <i class="fa-solid fa-angle-left"></i>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-11 col-xl-10 col-md-10 col-sm-10">
                     <div class="testimonial-slide">
                         <div class="testimonial-content">
                             <div class="heading">
@@ -511,32 +625,32 @@
     <section id="brand-logos">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-2">
                     <div class="brand-logo">
                         <img src="images/brand-logos/1.jpg" class="img-fluid w-100" alt="brand-logo"/>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-2">
                     <div class="brand-logo">
                         <img src="images/brand-logos/2.png" class="img-fluid w-100" alt="brand-logo"/>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-2">
                     <div class="brand-logo">
                         <img src="images/brand-logos/3.png" class="img-fluid w-100" alt="brand-logo"/>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-2">
                     <div class="brand-logo">
                         <img src="images/brand-logos/4.png" class="img-fluid w-100" alt="brand-logo"/>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-2">
                     <div class="brand-logo">
                         <img src="images/brand-logos/5.png" class="img-fluid w-100" alt="brand-logo"/>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-2">
                     <div class="brand-logo">
                         <img src="images/brand-logos/3.png" class="img-fluid w-100" alt="brand-logo"/>
                     </div>
@@ -549,72 +663,67 @@
     <!-- Footer area start -->
     <footer>
         <div class="container">
-            <div class="row justify-content-evenly">
-                <div class="col-lg-4">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services">
                         <div class="heading">
                             <h4>services</h4>
                         </div>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>archery</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>paintball</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>laser clays</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>quadtreking</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>rage buggies</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>team buliding</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>climbing tower</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>hellicopter ride</span>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="#">
-                                    <img src="images/list-shape.svg" class="img-fluid" alt="list-shape">
-                                    <span>mobile activities</span>
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="ul-flex">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span>archery</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>laser clays</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>quadtreking</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>paintball</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>rage buggies</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span>team buliding</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>climbing tower</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>hellicopter ride</span>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#">
+                                        <span>mobile activities</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-5 col-md-6 col-sm-6">
                     <div class="contact-detail">
                         <div class="heading">
                             <h4>get in touch</h4>
@@ -667,13 +776,13 @@
                     </div>
                 </div>
             </div>
-            <div class="row copyright-area justify-content-evenly align-items-center">
-                <div class="col-lg-5 copy">
+            <div class="row copyright-area justify-content-between align-items-center">
+                <div class="col-lg-5 col-md-6 col-sm-10 copy">
                     <p>
                        copyright &copy; <a href="https://www.facebook.com/borderquad/">commando paintball and border quadtreking</a> 
                     </p>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-6 col-sm-10 sm-dv">
                     <div class="footer-links">
                         <ul>
                             <li>
